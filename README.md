@@ -47,7 +47,7 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
     cd backend
     ```
 
-6.  ****Abra o Jupyter Notebook `train_model.ipynb`, selecione como kernel o mesmo Python que instalou os requisitos e execute todas as células de código**
+6.  **Abra o Jupyter Notebook `train_model.ipynb`, selecione como kernel o mesmo Python que instalou os requisitos e execute todas as células de código**
 
 7.  **Inicie a API Flask:**
 
