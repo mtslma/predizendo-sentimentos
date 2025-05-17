@@ -14,7 +14,9 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
 * **Pandas:** Análise e manipulação de dataframes;
 * **Scikit-learn (sklearn):** Divisão de dados, vetorização de texto e implementação dos modelos de classificação.
 * **Pickle:** Módulo Python para serializar objetos, utilizado para salvar o modelo treinado que obteve melhor classificação.
-### ⚙ 3. Configuração Local do Projeto
+
+---
+### ⚙ Configuração Local do Projeto
 
 **Para iniciar o projeto localmente, siga estes passos:**
 
@@ -65,11 +67,11 @@ Unix (Linux/macOS):
 Abra o arquivo `index.html` localizado na raiz do projeto no seu navegador.
 
 Pronto\! Agora você pode fornecer feedbacks e obter as predições de sentimentos. 😁
-
-**4. Detalhes do modelo**
+---
+### 📃 Detalhes do modelo
 
 Os resultados da avaliação dos diferentes modelos foram apresentados durante a execução do script `train_model.ipynb`, indicando a acurácia e outras métricas de classificação para cada um. O modelo com a maior acurácia no conjunto de teste foi identificado como o melhor para esta tarefa específica e salvo.
-
-**5. Possíveis melhorias**
+---
+### ✏ Possíveis melhorias
 
 O dataset atual, focado na polaridade do sentimento (positivo ou negativo), oferece uma base sólida para a classificação geral das opiniões dos usuários. No entanto, para obter insights ainda mais profundos e acionáveis, aprimorar o dataset com informações mais granulares sobre os aspectos específicos mencionados nos feedbacks pode ser extremamente valioso e seria um bom início para aprimorar o modelo como um todo.
