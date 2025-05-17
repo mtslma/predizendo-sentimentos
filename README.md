@@ -69,3 +69,7 @@ Pronto\! Agora você pode fornecer feedbacks e obter as predições de sentiment
 **4. Detalhes do modelo**
 
 Os resultados da avaliação dos diferentes modelos foram apresentados durante a execução do script `train_model.ipynb`, indicando a acurácia e outras métricas de classificação para cada um. O modelo com a maior acurácia no conjunto de teste foi identificado como o melhor para esta tarefa específica e salvo.
+
+**5. Possíveis melhorias**
+
+O dataset atual, focado na polaridade do sentimento (positivo ou negativo), oferece uma base sólida para a classificação geral das opiniões dos usuários. No entanto, para obter insights ainda mais profundos e acionáveis, aprimorar o dataset com informações mais granulares sobre os aspectos específicos mencionados nos feedbacks pode ser extremamente valioso e seria um bom início para aprimorar o modelo como um todo.
