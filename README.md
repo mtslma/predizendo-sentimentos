@@ -24,7 +24,7 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/mtslma/predizendo-sentimentos.git](https://github.com/mtslma/predizendo-sentimentos.git)
+    git clone https://github.com/mtslma/predizendo-sentimentos.git
     ```
 
 2.  **Acesse o diretório do projeto:**
@@ -47,10 +47,7 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
     cd backend
     ```
 
-6.  **Execute o Jupyter Notebook para treinar o modelo:**
-    ```bash
-    python train_model.ipynb
-    ```
+6.  **Abra o Jupyter Notebook `train_model.ipynb`, selecione como kernel o mesmo Python que instalou os requisitos e execute todas as células de código**
 
 7.  **Inicie a API Flask:**
 
