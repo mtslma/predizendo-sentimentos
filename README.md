@@ -65,3 +65,7 @@ Unix (Linux/macOS):
 Abra o arquivo `index.html` localizado na raiz do projeto no seu navegador.
 
 Pronto\! Agora você pode fornecer feedbacks e obter as predições de sentimentos. 😁
+
+**4. Detalhes do modelo**
+
+Os resultados da avaliação dos diferentes modelos foram apresentados durante a execução do script `train_model.ipynb`, indicando a acurácia e outras métricas de classificação para cada um. O modelo com a maior acurácia no conjunto de teste foi identificado como o melhor para esta tarefa específica e salvo.
