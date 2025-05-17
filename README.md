@@ -24,7 +24,7 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/mtslma/predizendo-sentimentos.git](https://github.com/mtslma/predizendo-sentimentos.git)
+    git clone https://github.com/mtslma/predizendo-sentimentos.git
     ```
 
 2.  **Acesse o diretório do projeto:**
