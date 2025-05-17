@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Classificador de feedback - Linhas 8 e 9</title>
+        <link rel="stylesheet" href="assets/style.css" />
+    </head>
+    <body>
+        <div class="main-wrapper">
+            <h1>Classificador de Feedback - Linhas 8 e 9</h1>
+
+            <div class="columns-container">
+                <!-- Coluna do formulário -->
+                <div class="form-column">
+                    <div class="container">
+                        <form id="feedbackForm">
+                            <label for="mensagem">Mensagem do passageiro:</label>
+                            <textarea id="mensagem" name="mensagem" required placeholder="Digite o feedback aqui..."></textarea>
+                            <button type="submit">Analisar Sentimento</button>
+                        </form>
+                        <div id="resultado"></div>
+                    </div>
+                </div>
+
+                <!-- Coluna dos exemplos -->
+                <div class="examples-column">
+                    <div class="container examples-box">
+                        <h3>Exemplos de Feedback (clique para enviar para o campo)</h3>
+
+                        <div class="example-category">
+                            <h4 class="category-positive">Positivos</h4>
+                            <div class="example-item">Achei o sistema muito intuitivo e fácil de usar! Parabéns!</div>
+                            <div class="example-item">O sistema está funcionando super rápido, finalmente!</div>
+                            <div class="example-item">As informações estão claras e bem organizadas, facilitando muito o trabalho.</div>
+                            <div class="example-item">Gostei bastante da função de alertas personalizados, muito útil.</div>
+                            <div class="example-item">Parabéns pela melhoria na visualização dos dados, ficou excelente!</div>
+                        </div>
+
+                        <div class="example-category">
+                            <h4 class="category-negative">Negativos</h4>
+                            <div class="example-item">Uma sujeira, parece que está abandonado, nojento.</div>
+                            <div class="example-item">A interface ficou confusa e difícil de navegar depois da mudança.</div>
+                            <div class="example-item">As informações estão desorganizadas e difíceis de encontrar.</div>
+                            <div class="example-item">Os alertas não funcionam corretamente, perdi prazos importantes.</div>
+                            <div class="example-item">A integração com outros sistemas está falhando constantemente.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="assets/script.js"></script>
+    </body>
+</html>
