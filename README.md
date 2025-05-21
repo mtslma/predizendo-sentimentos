@@ -42,7 +42,7 @@ As seguintes ferramentas e tecnologias foram empregadas no desenvolvimento deste
     pip install -r requirements.txt
     ```
 
-5.  **Navegue até o diretório `backend`:** `backend`
+5.  **Navegue até o diretório `backend`
     ```bash
     cd backend
     ```
